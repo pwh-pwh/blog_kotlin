@@ -5,9 +5,9 @@ spring:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_blog_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://159.75.211.245:3306/ktln?characterEncoding=utf-8&serverTimezone=UTC
     username: root
-    password: 123456
+    password: 12345678
     hikari:
       minimum-idle: 5
       maximum-pool-size: 15
@@ -18,6 +18,9 @@ spring:
       connection-timeout: 30000
   application:
     name: Blog
+  jpa:
+    hibernate:
+      ddl-auto: update
 upload:
-  dir: D:\logs\upFiles\
+  dir: /Users/coderpwh/temp/
 

@@ -65,7 +65,7 @@
         </dependency>
         <dependency>
             <groupId>com.querydsl</groupId>
-            <artifactId>querydsl-apt</artifactId>
+            <artifactId>querydsl-core</artifactId>
             <version>5.0.0</version>
         </dependency>
         <dependency>
@@ -136,7 +136,7 @@
                                 <annotationProcessorPath>
                                     <groupId>com.querydsl</groupId>
                                     <artifactId>querydsl-apt</artifactId>
-                                    <version>${querydsl.version}</version>
+                                    <version>5.0.0</version>
                                     <classifier>jpa</classifier>
                                 </annotationProcessorPath>
                             </annotationProcessorPaths>
