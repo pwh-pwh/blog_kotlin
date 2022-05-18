@@ -17,7 +17,7 @@ class BlogCommentServiceTest {
     @Autowired
     lateinit var blogCommentService: BlogCommentDAO
 
-    @Test
+//    @Test
     fun findBlogCommentList() {
         val param = mutableMapOf<String, Any>()
         param["start"] = 0
